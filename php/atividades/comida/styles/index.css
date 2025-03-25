@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.barraHeader{
+    height: 100px;
+    width: 100%;
+    background-image: url("/images/rango.png");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    flex-wrap: wrap;
+    a{
+        margin: 15px;
+        padding: 15px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        font-family: 'Arial';
+        font-weight: none;
+        text-decoration: none;
+        color: rgb(95, 38, 38);
+        font-weight: bolder;
+    }
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.titulo{
+    height: 50px;
+    width: 100%;
+    font-family: 'Arial';
+    display: flex;
+    align-content: center;
+}
