@@ -30,7 +30,13 @@
                 include("pages/home/home.php");
                 break;
             case 'lista';
-                include ("pages/listaCarros/listaCarros.php");
+                include("pages/listaCarros/listaCarros.php");
+                break;
+            case 'adicionarCarro':
+                include("pages/listaCarros/adicionarCarro.php");
+                break;
+            case 'dbAdicionarCarro':
+                include("pages/listaCarros/dbAdicionarCarro.php");
                 break;
             default:
                 include("pages/home/home.php");

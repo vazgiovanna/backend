@@ -1,5 +1,9 @@
 <h1>Você está na página Lista<h1>
 
+<a href="index.php?menu=adicionarCarro">
+    <button type="button">Adicionar carro</button>
+</a>
+
 <table>
     <tr>
         <th>Modelo</th>
@@ -8,8 +12,6 @@
         <th>Ano</th>
         <th>Cor</th>
     </tr>
-</table>
-
 
 <?php
     $sql = "SELECT * FROM carros";
@@ -29,3 +31,4 @@
         <?php
     }
 ?>
+</table>
